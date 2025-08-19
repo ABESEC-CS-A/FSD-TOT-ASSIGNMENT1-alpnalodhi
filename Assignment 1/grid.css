@@ -1,0 +1,54 @@
+.grid{
+    display: grid;
+    border: 1px solid black;
+    /* grid-template-columns: 200px 200px 200px 200px; */
+    grid-template-columns: repeat(4,3fr);
+}
+.grid1{
+    height: auto;
+    width: auto;
+    border: 1px double green;    
+}
+.grid2{
+    height: auto;
+    width: auto;
+    border: 1px double green;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.grid2 .grid21{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    display: grid;
+}
+.grid2 .grid22{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+.grid2 .grid23{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+.grid2 .grid24{
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+}
+.grid2 .bird img{
+    height: 100px;
+    width: 100px;
+}
+.grid3{
+    height: auto;
+    width: auto;
+    border: 1px double green;
+}
+.grid4{
+    height: auto;
+    width: auto;
+    border: 1px double green;
+}
